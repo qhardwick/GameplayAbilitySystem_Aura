@@ -26,5 +26,6 @@ public:
 protected:
 	// Begin AAuraCharacterBase:
 	virtual void BeginPlay() override;
+	virtual void InitAbilityActorInfo() override;
 	// End AAuraCharacterBase
 };
